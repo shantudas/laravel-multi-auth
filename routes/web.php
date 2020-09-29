@@ -15,6 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+/*Route::group('user', function () {
+    Route::get('login', 'Auth\User\LoginController@showLoginForm')->name('login');
+    Route::post('login', 'Auth\User\LoginController@login');
+    Route::post('logout', 'Auth\User\LoginController@logout')->name('logout');
+});*/
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('login', 'Auth\User\LoginController@showLoginForm')->name('login');
+Route::post('login', 'Auth\User\LoginController@login');
+Route::post('logout', 'Auth\User\LoginController@logout')->name('logout');
+
+//Auth::routes();
+Route::get('/dashboard', 'User\DashboardController@index')->name('dashboard');
