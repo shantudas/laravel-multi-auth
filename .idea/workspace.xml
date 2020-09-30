@@ -19,47 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/User/LoginController.php">
+      <file leaf-file-name="RedirectIfAuthenticated.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="31" />
-              <folding>
-                <element signature="e#50#86#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="31" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Author/LoginController.php">
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding>
-                <element signature="e#52#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Admin/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-              <folding>
-                <element signature="e#51#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="656">
+              <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -71,6 +45,7 @@
     <findStrings>
       <find>loginController</find>
       <find>login</find>
+      <find>unauthenti</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,6 +91,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/Admin/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/Author/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/User/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
       </list>
     </option>
   </component>
@@ -168,30 +145,7 @@
               <item name="multi-auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="multi-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="multi-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="multi-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="multi-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="multi-auth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exceptions" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -203,7 +157,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="Login&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/Author/LoginController.php&#10;LoginContr&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/Admin/LoginController.php&#10;web.p&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;LoginControll&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;LoginController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;DashboardController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/User/DashboardController.php&#10;web&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;we&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;auth&#9;FILE&#9;file://G:/php/personal/multi-auth/config/auth.php&#10;RedirectIf&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://G:/php/personal/multi-auth/config/auth.php&#10;LoginC&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;RegisterController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/RegisterController.php&#10;Router.php&#9;FILE&#9;file://G:/php/personal/multi-auth/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;router&#9;null&#9;null&#10;AppS&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="handler&#9;null&#9;null&#10;Login&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/Author/LoginController.php&#10;LoginContr&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/Admin/LoginController.php&#10;web.p&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;LoginControll&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;LoginController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;DashboardController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/User/DashboardController.php&#10;web&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;we&#9;FILE&#9;file://G:/php/personal/multi-auth/routes/web.php&#10;auth&#9;FILE&#9;file://G:/php/personal/multi-auth/config/auth.php&#10;RedirectIf&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://G:/php/personal/multi-auth/config/auth.php&#10;LoginC&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/LoginController.php&#10;RegisterController&#9;FILE&#9;file://G:/php/personal/multi-auth/app/Http/Controllers/Auth/User/RegisterController.php&#10;Router.php&#9;FILE&#9;file://G:/php/personal/multi-auth/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;router&#9;null&#9;null&#10;AppS&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -245,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601379665952</updated>
       <workItem from="1601379667183" duration="4803000" />
-      <workItem from="1601443427442" duration="10281000" />
+      <workItem from="1601443427442" duration="11766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15084000" />
+    <option name="totallyTimeSpent" value="16569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -287,24 +241,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/User/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/User/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#50#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/user/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -507,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_09_30_075700_create_authors_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -612,7 +538,7 @@
         <state relative-caret-position="62">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <element signature="e#29#69#0#PHP" expanded="true" />
+            <element signature="e#29#69#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,8 +572,8 @@
         <state relative-caret-position="408">
           <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
           <folding>
-            <element signature="n#style#0;n#form#0;n#div#1;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#2;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#1;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#form#0;n#div#2;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,20 +610,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/User/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Admin/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        <state relative-caret-position="904">
+          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="31" />
           <folding>
-            <element signature="e#51#87#0#PHP" expanded="true" />
+            <element signature="e#50#86#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,18 +625,50 @@
         <state relative-caret-position="377">
           <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
-            <element signature="e#52#88#0#PHP" expanded="true" />
+            <element signature="e#52#88#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/User/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Admin/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="31" />
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding>
-            <element signature="e#50#86#0#PHP" expanded="true" />
+            <element signature="e#51#87#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="227" column="5" lean-forward="true" selection-start-line="215" selection-start-column="4" selection-end-line="227" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
