@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth\User;
+namespace App\Http\Controllers\Auth\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
@@ -21,12 +21,7 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
-    //protected $redirectTo = '/dashboard';
+
 
     /**
      * Create a new controller instance.
@@ -35,12 +30,12 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest:user')->except('logout');
+        $this->middleware('guest:admin')->except('logout');
     }
 
     public function showLoginForm()
     {
-        return view('auth.user.login');
+        return view('auth.admin.login');
     }
 
     /**
@@ -50,13 +45,15 @@ class LoginController extends Controller
      */
     protected function guard()
     {
-        return Auth::guard('user');
+        return Auth::guard('admin');
     }
 
 
     public function redirectTo()
     {
-        return route('dashboard');
+        return route('admin.dashboard');
     }
+
+
 
 }
