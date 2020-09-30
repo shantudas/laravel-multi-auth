@@ -15,11 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*Route::group('user', function () {
-    Route::get('login', 'Auth\User\LoginController@showLoginForm')->name('login');
-    Route::post('login', 'Auth\User\LoginController@login');
-    Route::post('logout', 'Auth\User\LoginController@logout')->name('logout');
-});*/
 //Auth::routes();
 
 Route::get('login', 'Auth\User\LoginController@showLoginForm')->name('login');
@@ -28,6 +23,16 @@ Route::post('logout', 'Auth\User\LoginController@logout')->name('logout');
 Route::get('register', 'Auth\User\RegisterController@showRegistrationForm')->name('register');
 Route::post('register', 'Auth\user\RegisterController@register');
 Route::get('dashboard', 'User\DashboardController@index')->name('dashboard');
+
+
+Route::prefix('author')->group(function () {
+    Route::get('login', 'Auth\Author\LoginController@showLoginForm')->name('author.login');
+    Route::post('login', 'Auth\Author\LoginController@login');
+    Route::post('logout', 'Auth\Author\LoginController@logout')->name('author.logout');
+    Route::get('register', 'Auth\Author\RegisterController@showRegistrationForm')->name('author.register');
+    Route::post('register', 'Auth\Author\RegisterController@register');
+    Route::get('dashboard', 'Author\DashboardController@index')->name('author.dashboard');
+});
 
 Route::prefix('admin')->group(function () {
     Route::get('login', 'Auth\Admin\LoginController@showLoginForm')->name('admin.login');
