@@ -24,6 +24,8 @@ Route::get('/', function () {
 Route::get('login', 'Auth\User\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\User\LoginController@login');
 Route::post('logout', 'Auth\User\LoginController@logout')->name('logout');
+Route::get('register', 'Auth\User\RegisterController@showRegistrationForm')->name('register');
+Route::post('register', 'Auth\user\RegisterController@register');
 
 //Auth::routes();
 Route::get('/dashboard', 'User\DashboardController@index')->name('dashboard');
