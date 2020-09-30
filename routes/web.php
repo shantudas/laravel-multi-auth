@@ -46,6 +46,7 @@ Route::prefix('author')->namespace('Author')->group(function () {
 
 //Admin routes starts here
 
+
 Route::prefix('admin')->namespace('Auth\Admin')->group(function () {
     Route::get('login', 'LoginController@showLoginForm')->name('admin.login');
     Route::post('login', 'LoginController@login');
